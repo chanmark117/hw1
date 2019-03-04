@@ -1,0 +1,81 @@
+body{
+    padding:0; /*消邊框 往內縮*/
+    margin: 0; /*消邊框 往外擠*/    
+}
+p { display: inline; 
+    font-family: "Arial";
+}
+#left{
+    white-space:pre;
+    position : absolute;
+    right: 30px;
+}
+#right{
+    position: absolute;
+    top : -5px;
+    left : 30px;
+}
+#all{
+    background-image: url("./bg.png");
+    height: 45.7vw;
+    width: 100vw;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#top_bar>p{
+    color : white;
+    font-size: 2vw;
+}
+#center_pic{
+    background-image: url("./center_1.jpg");
+    height: 27vw;
+    width: 45vw;
+    position : absolute;
+    top : 10vw;
+    left : 30vw;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    z-index: 5;
+}
+#main_char{
+    
+}
+#number{
+    position: absolute;
+    top : -150px;
+    left : 330px ;
+    font-size : 13vw;
+    color :#2d2d31;
+}
+#kotrf{
+    position: absolute;
+    top : 130px;
+    left : 250px ;
+    font-size : 6vw;
+    color : white;
+    z-index: 6;
+}
+#sw{
+    position: absolute;
+    top : 400px;
+    left : 250px ;
+    font-size : 2vw;
+    color : white;
+}
+#border{
+    position: absolute;
+    top : 320px;
+    left : 253px ;
+    font-size : 5vw;
+    color : white;
+}
+#bottom_bar{
+    color : #747075;
+    font-size: 1.5vw;
+    position: absolute;
+    right : 30px;
+    bottom : 30px;
+    white-space:pre;
+}
