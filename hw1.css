@@ -71,6 +71,34 @@ p { display: inline;
     font-size : 5vw;
     color : white;
 }
+#onebar{
+    position: absolute;
+    top : 430px;
+    left : 253px ;
+    font-size : 4vw;
+    color : #f76c66;
+}
+#twobar{
+    position: absolute;
+    top : 430px;
+    left : 290px ;
+    font-size : 4vw;
+    color : #6a3836;
+}
+#threebar{
+    position: absolute;
+    top : 430px;
+    left : 330px ;
+    font-size : 4vw;
+    color : #6a3836;
+}
+#fourbar{
+    position: absolute;
+    top : 430px;
+    left : 370px ;
+    font-size : 4vw;
+    color : #6a3836;
+}
 #bottom_bar{
     color : #747075;
     font-size: 1.5vw;
